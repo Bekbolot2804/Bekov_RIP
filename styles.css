@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.bg_color_head{
+    background-color: #0D8DD0;
+    width: 100%;
+    height: 50px;
+}
+.header{
+    width: 100%;
+    height: 250px;
+}
+div {
+    background: #EFEFEF;
+}
+.container {
+    display: grid;
+    /* Будет создано 3 колонки */
+    grid-template-columns: 150px auto 40%;
+    /* Будет создано 2 ряда */
+    grid-template-rows: 200px 250px;
+}
+a {
+    color: #0D8DD0; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание */
+}
+a:visited {
+    color: #0D8DD0; /* Цвет посещённой ссылки */
+} 
+a:hover {
+    color: #0D8DD0; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+}
+.Search {
+    width: 270px;
+    height: 51px;
+    border: 2px solid black;
+}
+.menu{
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+.image.search{
+    margin: 0;
+    grid-area: d;
+}
