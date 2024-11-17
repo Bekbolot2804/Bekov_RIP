@@ -13,8 +13,14 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+.im_glav {
+    height: 50px;
+    width: 50px;
+}
 .bg_color_head{
     background-color: #0D8DD0;
+    color: #FFFFFF;
+    display: flex;
     width: 100%;
     height: 50px;
 }
@@ -84,10 +90,20 @@ a:hover {
 }
 .glavnoe{
     font-size: 24px;
+    
+}
+.glavnoe:visited{
+    color: #FFFFFF;
 }
 .glav{
     width: auto;
+    justify-content: end;
     height: auto;
+    margin-right: 65%;
+    margin-left: auto;
+    background-color: #0D8DD0;
+    display: flex;
+    align-items: center;
 }
 .card{
     border-radius: 20px;
